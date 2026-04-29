@@ -33,17 +33,21 @@ Durante o desenvolvimento deste projeto, explorei conceitos fundamentais de Vis�
         python src/rosto.py
         ```
 
-## 🖼️ 3. Mostre o Resultado (Visual é tudo!)
+## 🖼️ Resultados (Visual é tudo!)
 
-Abaixo estão os resultados gerados pelo algoritmo, provando a eficácia do processamento sem a necessidade de rodar o código:
+Abaixo estão os resultados gerados pelo algoritmo, demonstrando cada etapa do processamento:
 
-### Detecção Facial (Retângulo Verde)
-O sistema identifica a face e desenha um delimitador dinâmico.
-![Detecção Facial](results/Fototeste.jpg)
+### 1. Processamento de Vídeo (Main)
+Exemplos de manipulação de área de monitoramento e filtros iniciais.
+![Original Color](results/resultado-main-color.jpg)
+![Filtro Cinza](results/resultado-main-cinza.jpg)
+![Área Detectada](results/resultado-main-area-detect.jpg)
 
-### Filtro Canny (Detecção de Bordas)
-Extração do "esqueleto" da imagem, essencial para monitoramento de movimento.
-![Filtro Canny](results/Fotocinza.jpg)
+### 2. Detecção Facial (Rosto)
+O sistema identifica a face e desenha um delimitador dinâmico (quadrado verde).
+![Rosto Original](results/resultado-rosto-orig-color.jpg)
+![Rosto Cinza](results/resultado-rosto-orig-cinza.jpg)
+![Rosto Detectado](results/resultado-rosto-orig-detect.jpg)
 
 ---
-Desenvolvido por **Lucas Fernando Cobra**
+Desenvolvido por **Lucas "Cobra" Fernando**
